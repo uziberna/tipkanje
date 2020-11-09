@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="css/custom.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+        <title>10 Finger Typing</title>
+    </head>
+
+    <body oncopy="return false">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="display-3 text-center">ASDF - 10-PRSTNO TIPKANJE</h1>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-2">
+                <div class="col-2 border border-primary rounded">
+                    <h3>Menu</h3>
+                    <button class="btn btn-light active">ASDF</button><br><br>
+                    <button class="btn btn-light">ASDFA</button><br><br>
+                    <button class="btn btn-light">FDSA</button><br><br>
+                    <button class="btn btn-light">FDSA2</button><br><br>
+                </div>
+                <div class="col-6">
+                    Vaja <span id="naloga">1</span><br>
+                    <p class="border border-success rounded pl-2">
+                        <span id="prva"></span><br>
+                        <span id="druga"></span><br>
+                        <span id="tretja"></span>
+                    </p>
+                    <span>Vnos</span>
+                    <form class="border border-warning rounded mt-3 pl-2 pr-2" onsubmit="return false;">
+                        <div class="form-group mt-3">
+                            <input id="vnos" class="form-control" type="text" autocomplete="off" onkeyup="preveriVnos();">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-2 border border-primary rounded">
+                    <h3>Statistika</h3>
+                    </br>
+                    <h4>Statistika za vajo</h4>
+                    Trenutna vaja: <span id="trenutnaVaja">x</span></br>
+                    Napake pri vaji: <span id="napakeVaja">0</span></br>
+                    Napake v %: <span id="napakeProc">0.00</span>%</br>
+                    Udarcev pri vaji: <span id="udarciVaja">0</span></br>
+                    Udarcev/min: <span id="udarciMin">0</span></br>
+                    Tekoči čas: <span id="ure">00</span>:<span id="minute">00</span>:<span id="sekunde">00</span></br></br>
+                    <h4>Skupna statistika</h4>
+                    Opravljenih vaj: <span id="opravljeneVaje">x</span></br>
+                    Skupen čas: <span id="vseUre">00</span>:<span id="vseMinute">00</span>:<span id="vseSekunde">00</span></br>
+                    Udarcev/min: <span id="skupniUdarciMin">0</span></br>
+                    Vseh udarcev: <span id="vsiUdarci">0</span></br>
+                    Vseh napak: <span id="vseNapake">0</span></br>
+                    Napake v %: <span id="vseNapakeProc">0</span></br></br>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="js/teksti.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+        
+        $( document ).ready(function() {
+
+            reset();
+
+            naloziVajo(0, trenutnaVaja-1);
+
+            oznaciVrstico(trenutnaVrstica);
+        });
+    </script>
+</html>
