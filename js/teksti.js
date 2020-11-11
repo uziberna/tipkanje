@@ -395,5 +395,4 @@ var predtest = [
         "seštevku ni bilo sprememb, pravo dirkanje pa se je začelo šele v zadnjih 30 km,",
         "ko je bilo v španski prestolnici na vrsti pet zaključnih krogov."
     ]
-     
 ];
