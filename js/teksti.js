@@ -253,9 +253,9 @@ var asdf = [
 
 var asdfa = [
     [
-        "V dobi realizma je v pesniški besedi najodloźneje izražal svoje misli o",
+        "V dobi realizma je v pesniški besedi najodločneje izražal svoje misli o",
         "narodni in socialni svobodi epski pesnik - realist Anton Aškerc. Rodil se",
-        "je v Globokem pri Rimskih Toplicah leta 1856, kot sin propadajoźega kmeta."
+        "je v Globokem pri Rimskih Toplicah leta 1856, kot sin propadajočega kmeta."
     ],
     [
         "Ob skromni domači podpori se je pretolkel skozi gimnazijo v Celju. Ker ni",
@@ -264,7 +264,7 @@ var asdfa = [
     ],
     [
         "je služboval v raznih krajih štajerske. Zaradi sporov s cerkvenimi",
-        "predstojniki je po sedemnajstih letih slu§bovanja prosil za upokojitev,",
+        "predstojniki je po sedemnajstih letih službovanja prosil za upokojitev,",
         "nato pa leta 1898 nastopil službo ljubljanskega arhivarja. To službo"
     ],
     [
