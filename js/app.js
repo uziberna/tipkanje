@@ -119,6 +119,25 @@ function posodobi(){
     document.getElementById("vseNapakeProc").innerHTML = vseNapakeProc;
 }
 
+function izberiVaje(a){
+    izbraneVaje = a;
+    document.getElementById("asdf").classList.remove("active");
+    document.getElementById("asdfa").classList.remove("active");
+    document.getElementById("predtest").classList.remove("active");
+    if (a == 0){
+        document.getElementById("asdf").classList.add("active");
+    }
+    else if (a == 1){
+        document.getElementById("asdfa").classList.add("active");
+    }
+    else {
+        document.getElementById("predtest").classList.add("active");
+    }
+    reset();
+    naloziVajo(izbraneVaje, trenutnaVaja-1);
+    oznaciVrstico(trenutnaVrstica);
+}
+
 function naloziVaje(vaje){
     var nalozi;
     if (vaje == 0){
@@ -128,10 +147,7 @@ function naloziVaje(vaje){
         nalozi = asdfa;
     }
     else if (vaje == 2){
-        nalozi = fdsa;
-    }
-    else if (vaje == 3){
-        nalozi = fdsa2;
+        nalozi = predtest;
     }
 
     return nalozi;
@@ -220,8 +236,8 @@ function preveriVnos(){
         napakeProc = napakeProc.toFixed(2);
         vseNapakeProc = Math.round((vseNapake / vsiUdarci) * 10000) / 100;
         vseNapakeProc = vseNapakeProc.toFixed(2);
-        udarciMin = (udarciVaja / ((ure * 3600) + (minute * 60) + sekunde)) * 60;
-        skupniUdarciMin = (vsiUdarci / ((vseUre * 3600) + (vseMinute * 60) + vseSekunde)) * 60;
+        udarciMin = Math.round((udarciVaja / ((ure * 3600) + (minute * 60) + sekunde)) * 60);
+        skupniUdarciMin = Math.round((vsiUdarci / ((vseUre * 3600) + (vseMinute * 60) + vseSekunde)) * 60);
 
         if (preveriVrstico(vnos, vrstica)){
             document.getElementById("vnos").value = vnos.substring(0, 0);

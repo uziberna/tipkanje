@@ -250,3 +250,150 @@ var asdf = [
         "ga rad kruh čaka kurjač dada ga huda srka suh ura rada čaka"
     ]
 ];
+
+var asdfa = [
+    [
+        "V dobi realizma je v pesniški besedi najodloźneje izražal svoje misli o",
+        "narodni in socialni svobodi epski pesnik - realist Anton Aškerc. Rodil se",
+        "je v Globokem pri Rimskih Toplicah leta 1856, kot sin propadajoźega kmeta."
+    ],
+    [
+        "Ob skromni domači podpori se je pretolkel skozi gimnazijo v Celju. Ker ni",
+        "imel sredstev za študij, je na ljubo domačim, zlasti pa na željo tete",
+        "Agate, ki je zanj skrbela, stopil v mariborsko semenišče. Kot duhovnik"
+    ],
+    [
+        "je služboval v raznih krajih štajerske. Zaradi sporov s cerkvenimi",
+        "predstojniki je po sedemnajstih letih slu§bovanja prosil za upokojitev,",
+        "nato pa leta 1898 nastopil službo ljubljanskega arhivarja. To službo"
+    ],
+    [
+        "je vestno opravljal do svoje smrti leta 1912. V času Aškerčevega študija",
+        "in službovanja je bil zlasti na štajerskem hud nemški pritisk in Aškerc",
+        "se je kot napreden duhovnik in pesnik boril za narodne pravice Slovencev"
+    ],
+    [
+        "na štajerskem. Ko pa je nastal med liberalci in konservativci razkol,",
+        "se je edini Aškerc upal nastopiti odkrito proti Mahniču in ga je",
+        "v mnogih pesmih napadal. Tragično za Aškerca pa je bilo, da se je"
+    ],
+    [
+        "povezal z idejno preživelim liberalizmom: zato je kasneje zaostal",
+        "s svojo miselnostjo in delom za časom, ki ga je sam pripravljal.",
+        "V svojem življenju je Aškerc mnogo potoval: Češka, Rusija, Poljska,"
+    ],
+    [
+        "Bolgarija, Srbija, Bosna in Hercegovina, Mala Azija, Egipt, Italija itd.",
+        "Že kot bogoslovec se je poglabljal v koran (muslimansko sveto pismo),",
+        "pozneje pa je čedalje bolj proučeval različne orientalske vere. Prve pesmi"
+    ],
+    [
+        "je Aškerc pesnil pod psevdonimom Gorazd po Stritarjevem, Jenkovem in Gregorčičevem",
+        "zgledu, kmalu pa je pokazal svoj epski dar in pod Levčevim vplivom začel oblikovati",
+        "motive iz sodobnega ljudskega življenja; postal je realist. Poslej je pisal balade"
+    ],
+    [
+        "in romance, ki se oblikujejo po jedernatem slogu in dramatičnosti. Kljub Mahničevim",
+        "grožnjam je leta 1890 izdal svojo prvo zbirko pesmi Balade in romance, leta",
+        "1896 Lirske in epske poezije. V teh dveh zbirkah je dosegel Aškerc višek"
+    ],
+    [
+        "svoje pesniške sile; pozneje pa je začela njegova pesniška žila usihati in",
+        "drobiti v borbi z Mahničem in ostalimi sovražniki. Izdal je še več pesniških",
+        "zbirk; razne enodejanke in druge pesnitve; iz katerih je razvidno, da je"
+    ],
+    [
+        "Aškerc kot pesnik propadal, a tega ni spoznal. Ugotovila pa je njegovo",
+        "nazadovanje njegova pesniška mladina (Cankar, Župančič) in se mu popolnoma",
+        "odtujila. Aškerc je najboljši slovenski epik. Snov za svoje pesmi je"
+    ],
+    [
+        "zajemal iz ljudskih pripovedk, slovenske in svetovne zgodovine,",
+        "družbenih razmer, navdihnili pa so mu jih tudi popotni vtisi in",
+        "razmišljanje o svobodi pesniškega ustvarjanja in svobodi misli."
+    ],
+    [
+        "Na ljudskih pripovedih temeljita med drugimi baladami Ponožna",
+        "popotnica in Mejnik. Prva je grozljiva o Ponožni potnici kugi,",
+        "ki jo brodnik pripelje čez Dravo, v zahvalo pa ga umori. V baladi"
+    ],
+    [
+        "Mejnik pa je osnova ljudsko verovanje, da se mora vsakdo za svoje ",
+        "nepošteno dejanje pokoriti v življenu ali po smrti. V obeh baladah raste",
+        "dejanje skoraj do konca, razplet je kratek in presenetljiv. KONEC."
+    ]
+]
+
+var predtest = [
+    [
+        "fjfj fjfj fjfj fjfj fjfj fjfj fjfj fjfj",
+        "jffj jffj jffj jffj jffj jffj jffj jffj",
+        "fjfj jffj fjfj jffj fjfj jffj fjfj jffj"
+    ],
+    [
+        "ačač ačač ačač ačač ačač ačač ačač ačač",
+        "čaač čaač čaač čaač čaač čaač čaač čaač",
+        "ačač čaač ačač čaač ačač čaač ačač čaač"
+    ],
+    [
+        "fajč fajč fajč fajč fajč fajč fajč fajč",
+        "čajf čajf čajf čajf čajf čajf čajf čajf",
+        "fajč fajč fajč fajč fajč fajč fajč fajč"
+    ],
+    [
+        "adf jkč adf jkč adf jkč adf jkč adf jkč",
+        "fda čkj fda čkj fda čkj fda čkj fda čkj",
+        "daf kčj daf kčj daf kčj daf kčj daf kčj"
+    ],
+    [
+        "asdf jklč asdf jklč asdf jklč asdf jklč",
+        "člkj fdsa člkj fdsa člkj fdsa člkj fdsa",
+        "ačač slsl dkdk fjfj ačač slsl dkdk fjfj"
+    ],
+    [
+        "ladja čakala čas ladja čakala čas ladja čakala čas ladja",
+        "kača skakala kača skakala kača skakala kača skakala kača",
+        "kdaj čaka ladja kdaj čaka ladja kdaj čaka ladja kdaj čaka"
+    ],
+    [
+        "dlaka jasa klas skakač lada fala sladak dajal fasada safala",
+        "kača ladja jajčka čakala lajala slak skala fafa jaffa las",
+        "jkla kldd člkj adkl jfkd slls dadl čjks sfak kllk slds lkaf"
+    ],
+    [
+        "Primož Roglič je drugič osvojil Vuelto in končal izjemen",
+        "niz s kar 12 zmagami! Na 75. Dirki po Španiji je dobil štiri",
+        "etape, trikrat pa je bil drugi. Bonifikacijske sekunde, ki jih"
+    ],
+    [
+        "je pobiral za najvišja mesta (48 sekund), so mu na koncu",
+        "prinesle tudi odločilno prednost pred Richardom Carapazom (16).",
+        "Slovensko kolesarstvo v vsega 14 mesecih slavi končno zmago že na"
+    ],
+    [
+        "tretji od zadnjih štirih tritedenskih dirk. Septembra je Tadej Pogačar",
+        "osvojil letošnjo Dirko po Franciji, na kateri je bil Roglič drugi, potem",
+        "ko mu je mlajši rojak na nepozabnem kronometru speljal zmagovito rumeno"
+    ],
+    [
+        "majico na zadnji odločilni etapi. A v tolažbo Rogliču ostaja to, da je",
+        "z obrambo naslova na Vuelti ubranil tudi lanske točke, medtem ko jih je lani",
+        "tretji Pogačar izgubil, s čimer se bo 31-letni Slovenec vrnil na vrh lestvice"
+    ],
+    [
+        "Mednarodne kolesarske zveze (UCI), kjer bo tudi prezimil do začetka prihodnje",
+        "sezone. 18. etapa se je začela ob 13.30 na hipodromu Zarzuela, končala pa ob",
+        "17.04 v središču Madrida s sprintersko poslastico. Šele podroben fotofiniš je"
+    ],
+    [
+        "razkril, da je zadnjo dirko pandemične sezone 2020 dobil Nemec Pascal Ackermann,",
+        "ki je za nekaj centimetrov prehitel Irca Sama Bennetta. Podobno tesen boj je",
+        "potekal za tretje mesto, v katerem je Nemec Max Kanter prehitel Belgijca Jasperja"
+    ],
+    [
+        "Philipsena. Etapa je bila ravninska, na tradicionalni paradi šampionov v skupnem",
+        "seštevku ni bilo sprememb, pravo dirkanje pa se je začelo šele v zadnjih 30 km,",
+        "ko je bilo v španski prestolnici na vrsti pet zaključnih krogov."
+    ]
+     
+]
