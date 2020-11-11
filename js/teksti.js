@@ -322,7 +322,7 @@ var asdfa = [
         "nepošteno dejanje pokoriti v življenu ali po smrti. V obeh baladah raste",
         "dejanje skoraj do konca, razplet je kratek in presenetljiv. KONEC."
     ]
-]
+];
 
 var predtest = [
     [
@@ -396,4 +396,4 @@ var predtest = [
         "ko je bilo v španski prestolnici na vrsti pet zaključnih krogov."
     ]
      
-]
+];
