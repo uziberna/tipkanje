@@ -22,6 +22,8 @@ var zacetekVaj = 0;
 var izbraneVaje = 0;
 var konecVaje = 0;
 
+var imePriimek = "";
+
 var casovnaFunkcija = setInterval(osveziCas, 250);
 
 function osveziCas(){
@@ -124,15 +126,20 @@ function izberiVaje(a){
     document.getElementById("asdf").classList.remove("active");
     document.getElementById("asdfa").classList.remove("active");
     document.getElementById("predtest").classList.remove("active");
+    document.getElementById("test").classList.remove("active");
     if (a == 0){
         document.getElementById("asdf").classList.add("active");
     }
     else if (a == 1){
         document.getElementById("asdfa").classList.add("active");
     }
-    else {
+    else if (a== 2){
         document.getElementById("predtest").classList.add("active");
     }
+    else {
+        document.getElementById("test").classList.add("active");
+    }
+    imePriimek = prompt("Please enter your name:", "");
     reset();
     naloziVajo(izbraneVaje, trenutnaVaja-1);
     oznaciVrstico(trenutnaVrstica);
@@ -149,8 +156,17 @@ function naloziVaje(vaje){
     else if (vaje == 2){
         nalozi = predtest;
     }
+    else if (vaje == 3){
+        nalozi = test;
+    }
 
     return nalozi;
+}
+
+function narediUrl(ime, casU, casM, casS, nap, uda){
+    var tmp = "http://10finger.ddns.net:8080/" + ime + "/" + casU + "/" + casM + "/" + casS + "/" + nap + "/" + uda;
+
+    return tmp;
 }
 
 function preveriVaje(vaje){
@@ -247,7 +263,9 @@ function preveriVnos(){
                 if ((trenutnaVaja + 1) > preveriVaje(naloziVaje(izbraneVaje))){
                     konecNabora();
                     konecVaje = 1;
-
+                    if (izbraneVaje == 3){
+                        $.get(narediUrl(imePriimek,vseUre,vseMinute,vseSekunde,vseNapake,vsiUdarci));
+                    }
                 }
                 else{
                     trenutnaVaja++;                    
