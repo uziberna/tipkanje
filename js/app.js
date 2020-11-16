@@ -138,8 +138,9 @@ function izberiVaje(a){
     }
     else {
         document.getElementById("test").classList.add("active");
+        imePriimek = prompt("Vpišite svoje ime:", "");
     }
-    imePriimek = prompt("Please enter your name:", "");
+    
     reset();
     naloziVajo(izbraneVaje, trenutnaVaja-1);
     oznaciVrstico(trenutnaVrstica);
