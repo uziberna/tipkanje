@@ -165,7 +165,7 @@ function naloziVaje(vaje){
 }
 
 function narediUrl(ime, casU, casM, casS, nap, uda){
-    var tmp = "http://10finger.ddns.net:8080/" + ime + "/" + casU + "/" + casM + "/" + casS + "/" + nap + "/" + uda;
+    var tmp = "http://tipkanje.ddns.net/rezultati/" + ime + "/" + casU + "/" + casM + "/" + casS + "/" + nap + "/" + uda;
 
     return tmp;
 }
