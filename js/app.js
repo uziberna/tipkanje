@@ -138,7 +138,7 @@ function izberiVaje(a){
     }
     else {
         document.getElementById("test").classList.add("active");
-        imePriimek = prompt("Vpišite svoje ime:", "");
+        imePriimek = prompt("Vpišite svoje ime (BREZ ŠUMNIKOV):", "");
     }
     
     reset();
