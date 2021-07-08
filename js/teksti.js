@@ -402,7 +402,7 @@ var test = [
         "fjfj fjfj fjfj fjfj fjfj fjfj fjfj fjfj",
         "jffj jffj jffj jffj jffj jffj jffj jffj",
         "fjfj jffj fjfj jffj fjfj jffj fjfj jffj"
-    ]/*,
+    ],
     [
         "ačač ačač ačač ačač ačač ačač ačač ačač",
         "čaač čaač čaač čaač čaač čaač čaač čaač",
@@ -467,5 +467,5 @@ var test = [
         "Philipsena. Etapa je bila ravninska, na tradicionalni paradi šampionov v skupnem",
         "seštevku ni bilo sprememb, pravo dirkanje pa se je začelo šele v zadnjih 30 km,",
         "ko je bilo v španski prestolnici na vrsti pet zaključnih krogov."
-    ]*/
+    ]
 ];
