@@ -166,9 +166,8 @@ function naloziVaje(vaje){
 
 function narediUrl(ime, casU, casM, casS, nap, uda){
     var tmp = "http://tipkanje.ddns.net/rezultati/" + ime + "/" + casU + "/" + casM + "/" + casS + "/" + nap + "/" + uda;
-    var encode = encodeURI(tmp);
 
-    return encode;
+    return tmp;
 }
 
 function preveriVaje(vaje){
